@@ -1,0 +1,16 @@
+artifact_path: sentiment-analyzer
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    python_version: 3.9.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 0.24.2
+mlflow_version: 1.25.1
+model_uuid: 32b134c985a24b85b6ad65353152eea9
+run_id: f2abaed51a8b4902b7a7c23f9b3254d5
+utc_time_created: '2022-06-21 21:29:16.126477'

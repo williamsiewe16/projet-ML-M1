@@ -1,0 +1,4 @@
+tensorflow
+flask_cors
+flask
+numpy
